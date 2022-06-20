@@ -1,0 +1,82 @@
+.bicContainer{
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.smallInsideContainer{
+  width: 80%;
+
+}
+
+.smallConTextCon{
+  background-color:  #5B6057;
+  color: white;
+  padding: 2rem 0rem;
+  border: 2px solid black;
+}
+
+
+
+.rightSideContainer{
+  background-color:  #5B6057;
+  border: 2px solid black;
+  width: 20%;
+
+}
+
+.leftSideContainer{
+  background-color: #78C091;
+  width: 100%;
+}
+
+.rightPanelText{
+  text-align: right;
+  margin-right: 1.5rem;
+  color: #ffffff;
+}
+
+.rightButtonsButton{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightText{
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.buttonCon{
+  background:none;
+  background-color: #81F0E5;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.rightButtonsContainer{
+  background-color: #81F0E5;
+  padding: 24px;
+  border-radius: 30px;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .bicContainer{
+      display: block;
+    }
+
+    .smallInsideContainer{
+      width: 100%;
+    }
+
+    .rightSideContainer{
+      width: 100%;
+    }
+}
